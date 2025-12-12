@@ -57,7 +57,7 @@ class AspidaAudio(Scene):
         bars.shift(DOWN * 3)
         self.add(bars)
 
-        # Add a cool title or background
+        # Add a title or background
         self.camera.background_color = "#0a0a0a"
 
         # Animation loop over time
@@ -103,5 +103,6 @@ class AspidaAudio(Scene):
 
 
         self.play(Unwrite(bars))
+
 
         self.wait()
