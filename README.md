@@ -1,5 +1,5 @@
 # PythonManimAudio
-As the title says is combines python and manim library as well as pydub. Render time is pretty long to be honest but if you ever need to use it for something feel free to :)...
+As the title says is combines python and manim library as well as pydub to create an audio visualizer. Render time is pretty long to be honest but if you ever need to use it for something feel free to :)...
 
 1: Make sure to you have manim, pydub and python installed. 
 2: Put your sound file in the same folder as AA.py and Renderer.bat(exmp put all files on Desktop or a folder called whatever)
