@@ -5,8 +5,11 @@ import os
 
 class AspidaAudio(Scene):
     def construct(self):
+
+        with open("temp.txt", "r") as f:
+            AUDIO_FILE = f.readline().strip()
         
-        AUDIO_FILE = "song.wav"          # <--- PUT YOUR AUDIO FILE HERE
+        
         BAR_COUNT = 70                        # Number of bars
         SMOOTHING = 0.5                       # 0-1, higher = smoother
         SENSITIVITY = 1.4                     # How strong the reaction is
@@ -106,3 +109,4 @@ class AspidaAudio(Scene):
 
 
         self.wait()
+
